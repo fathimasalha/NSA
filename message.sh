@@ -14,17 +14,3 @@ else
 echo "Good Night World"
 fi 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
