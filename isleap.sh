@@ -31,4 +31,6 @@ ksb@ksb-Lenovo-Product:~/salha/nsa$ sh isleap.sh 2000
 ksb@ksb-Lenovo-Product:~/salha/nsa$ sh isleap.sh 2001
 2001 is not a leap year
 
+ksb@ksb-Lenovo-Product:~/salha/nsa$ sh isleap.sh 2000 2001
+syntax error...
 
