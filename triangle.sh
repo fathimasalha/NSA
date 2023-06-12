@@ -22,3 +22,24 @@
     echo "$a $b $c can be the sides of triangle"
     fi
  
+
+
+#output
+
+ksb@ksb-Lenovo-Product:~/salha/nsa$ sh triangle.sh
+enter first number
+1
+enter second number
+2
+enter third number
+3 
+1 2 3 cannot be the sides of triangle
+
+ksb@ksb-Lenovo-Product:~/salha/nsa$ sh triangle.sh
+enter first number
+3
+enter second number
+3
+enter third number
+3
+3 3 3 can be the sides of triangle
