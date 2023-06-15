@@ -33,8 +33,15 @@ echo "\n"
 exit 0
 
 
+#output
 
+ksb@ksb-Lenovo-Product:~/salha/nsa$ sh PRIME.sh 100 200
+101,103,107,109,113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,199
 
+ksb@ksb-Lenovo-Product:~/salha/nsa$ sh PRIME.sh 100 
+syntax is <PRIME.sh> <no1> <no2> 
+ksb@ksb-Lenovo-Product:~/salha/nsa$ sh PRIME.sh 
+syntax is <PRIME.sh> <no1> <no2> 
 
 
 
