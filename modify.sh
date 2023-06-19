@@ -1,3 +1,4 @@
+#copy  a set of files
 if [ $# -ne 2 ]
 then
 echo "\nSyntax is <$0> <src filename><tgt filename>"
@@ -19,3 +20,18 @@ fi
 fi
 cp $1 $2
 echo "file copied"  
+
+
+
+#output
+-------
+ksb@ksb-Lenovo-Product:~/salha/nsa$ sh modify.sh
+Syntax is <modify.sh> <src filename><tgt filename>
+
+ksb@ksb-Lenovo-Product:~/salha/nsa$ sh modify.sh a1 a2
+Target file exits,overwrite it (y/n)
+y
+file copied
+ksb@ksb-Lenovo-Product:~/salha/nsa$ sh modify.sh a1 a2
+Target file exits,overwrite it (y/n)
+n
