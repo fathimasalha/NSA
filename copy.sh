@@ -13,3 +13,9 @@ shift
 done
 exit 0 
 
+
+#output
+-------
+ksb@ksb-Lenovo-Product:~/salha/nsa$ sh copy.sh a1 a2
+ksb@ksb-Lenovo-Product:~/salha/nsa$ sh copy.sh a1 a2 a3
+file name are not pairs 
