@@ -1,4 +1,4 @@
-#copy  a set of files
+#modify cp command considering all error possibility
 if [ $# -ne 2 ]
 then
 echo "\nSyntax is <$0> <src filename><tgt filename>"
